@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    border: none;
+}
+
+.nav-bar, .nav-left-side, .first-section, .flex-wrapper, .second-section, .fourth-section-tech-logos, .fourth-section-levels, .fifth-section .container{
+    display: flex;
+}
+
+.flex-wrapper{
+    justify-content: flex-end;
+}
+
+.nav-bar, .nav-left-side, .second-section, .fourth-section-tech-logos, .fourth-section-levels{
+    justify-content: space-between;
+}
+
+/*****************/
+
+.nav-bar{
+    align-items: center;
+    padding: 15px 113px;
+}
+
+.nav-bar{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 40px #00000029;
+}
+
+.nav-left-side{
+    width: 380px;
+}
+
+.btn-filled, .btn-empty{
+    width: 172px;
+    height: 52px; 
+    border-radius: 9px;
+    letter-spacing: 0px;
+    font: normal normal normal 20px/29px  'Cairo', sans-serif;
+}
+
+.btn-filled{
+    background: #00ADBB 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+.btn-empty{
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #50B9C9;
+    color: #00ADBB;
+}
+
+/***********/
+
+.first-section{
+    justify-content: center;
+    padding-top: 220px;
+    margin-bottom: 280px;
+}
+.left-first-section-background{
+    position: absolute;
+    z-index: -1;
+    width: 810px;
+    height: 788px;
+    transform: matrix(0.88, -0.47, 0.47, 0.88, 0, 0);
+    background: #0F1216 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 40px #00000029;
+    border-radius: 99px;
+}
+
+.right-first-section, .left-first-section{
+    position: relative;
+    width: 790px;
+}
+
+.right-first-section-background{
+    position: absolute;
+    z-index: -1;
+    width: 810px;
+    height: 788px;
+    transform: matrix(0.88, -0.47, 0.47, 0.88, 0, 0);
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 40px #00000029;
+    border-radius: 99px;
+}
+
+.right-first-section-content h1, .right-first-section-content p, .left-first-section-content h1, .left-first-section-content p{
+    text-align: right;
+}
+
+
+.right-first-section-content h1{
+    font: normal normal normal 60px/88px 'Cairo', sans-serif;
+    padding-bottom: 18px;
+}
+
+.right-first-section-content p {
+    font: normal normal normal 22px/32px 'Cairo', sans-serif;
+    width: 380px;
+    border-right: 3px solid #78D9E2;
+    padding-right: 10px;
+}
+
+.left-first-section-content{
+    padding-right: 55px;
+    color: white;
+}
+
+.left-first-section-content h1{
+    font: normal normal normal 60px/88px 'Cairo', sans-serif;
+    padding-bottom: 18px;
+}
+
+.left-first-section-content p {
+    font: normal normal normal 22px/32px 'Cairo', sans-serif;
+    width: 380px;
+    border-right: 3px solid #78D9E2;
+    padding-right: 10px;
+}
+
+.banner{
+    width: 450px;
+    height: 435px;
+}
+
+.left-first-section-imgs-holder{
+    position: relative;
+}
+
+.sub-banner{
+    position: absolute;
+    left: 315px;
+    top: 47px;
+}
+
+.register-btn{
+    width: 216px;
+    height: 71px;
+    background: #00ADBB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 31px;
+    font: normal normal normal 26px/38px 'Cairo', sans-serif;
+    color: white;
+    margin-top: 35px;
+}
+
+/***********************/
+
+.second-section{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    padding: 120px 150px;
+}
+
+.top-off-margin{
+    margin-top: -88px;
+}
+
+.second-section > div{
+    text-align: center;
+    width: 732px;
+    height: 282px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0.5px 60px #DBDBDB29;
+    border-radius: 50px;
+
+    font: normal normal normal 30px/44px 'Cairo', sans-serif;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    padding: 0px 10px;
+}
+
+.fourth-section{
+    background: url("./images/fourth-section-background.svg")  no-repeat center center;
+    height: 1300px;
+    text-align: center;
+}
+
+.fourth-section h1{
+    font: normal normal normal 60px/88px 'Cairo', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.fourth-section p{
+    font: normal normal normal 28px/42px 'Cairo', sans-serif;
+    letter-spacing: 0px;
+    color: #8E9395;
+}
+
+.margin-top-152{
+    margin-top: 152px;
+}
+
+.fourth-section-tech-logos{
+    align-items: center;
+    width: 475px;
+    margin: auto;
+}
+
+.fourth-section-levels{
+    width: 970px;
+    margin: 135px auto
+}
+
+.fourth-section-levels > div{
+    background: #323030 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #00000029;
+    border-radius: 50px;
+    width: 299px;
+    height: 303px;
+}
+
+.level-easy h1{
+    color: #97BF7E;
+}
+
+.level-normal h1{
+    color: #E4E06C;
+}
+
+.level-hard h1{
+    color: #D24F55;
+}
+
+/***************/
+
+.fifth-section{
+    width: 1756px;
+    height: 508px;
+    background: #FAFCFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 70px #00000014;
+    border-radius: 77px;
+    margin: 30px auto;
+}
+
+.fifth-section .container{
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.fifth-section h1{
+    text-align: left;
+    font: normal normal normal 60px/88px 'Cairo', sans-serif;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.fifth-section button{
+    width: 338px;
+    height: 71px;
+    background: #00ADBB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 15px;
+
+    font: normal normal normal 26px/38px 'Cairo', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+    margin-top: 30px;
+}
